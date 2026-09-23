@@ -147,7 +147,7 @@ slider = Slider(
 )
 slider.on_changed(_update)
 
-fig.suptitle('听觉诱发EEG地形图（左耳刺激，拖动滑块联动查看）', fontsize=13)
+fig.suptitle('EEG地形图（拖动滑块联动查看）', fontsize=13)
 
 # 交互窗口靠 plt.show() 保持，关掉窗口后再保存图片
 plt.show()
